@@ -1,0 +1,210 @@
+* {
+ box-sizing: border-box;
+}
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #dbdbdb;
+  font-family: 'oxygen', sans-serif;
+}
+div#socialbar{
+  background-color: black;
+  color: white;
+  width: 100%;
+  height: 55px;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  font-size: 18px;
+  text-align: right;
+  padding: 15px;
+}
+font{
+  float: left;
+  letter-spacing: 2px;
+
+}
+span{
+  font-size: 12px;
+  letter-spacing: 1px;
+}
+div#socialbar>i{
+  
+  margin-right: 15px;
+}
+div#socialbar>i:hover {
+  opacity: 0.8;
+ 
+}
+#container{
+  width: 80%;
+  margin: auto;
+  height: auto;
+  
+}
+header{
+  width: 100%;
+  height: 250px;
+  border-bottom-left-radius:10px;
+  border-bottom-right-radius: 10px;
+  position: relative;
+  color: white;
+  font-family: 'Teko', sans-serif;
+  font-size: 35px;
+  background-color: black;
+  margin-bottom: 5px;
+}
+img.header-img {
+  width: 100%;
+  height: 250px;
+  border-bottom-left-radius:10px;
+  border-bottom-right-radius: 10px;
+  box-shadow: 0 2px 8px 2px rgba(20, 23, 28, 15);
+  opacity: 0.8;
+
+  
+}
+
+.centered{
+  position: absolute;
+  top: 50%;
+  left :50%;
+  transform: translate(-58%, -59%);
+}
+section{
+  width: auto;
+  height: auto;
+  background-color: #f1f1f1;
+  border-top-right-radius: 10px;
+  border-top-left-radius:10px;
+  box-shadow: 0 2px 8px 2px rgba(20, 23, 28, 15);
+  margin-top: 15px;
+  overflow: auto;
+}
+nav{
+  width: 20%;
+  float: left;
+  margin-top: 10px;
+  height: auto;
+}
+nav ul{
+  width: auto;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+
+
+}
+nav li {
+  list-style-type: none;
+}
+nav li a{
+  height: 50px;
+  line-height: 50px;
+  text-decoration: none;
+  color:black;
+  border-bottom: solid #667;
+  padding-left: 20px;
+  display: block;
+
+}
+nav li a:hover{
+    background-color: rgb(0, 0, 0);
+    color: white;
+  }
+i{
+  margin-right: 10px;
+}
+main{
+  float: left;
+  height: auto;
+  width: 80%;
+  padding: 10px;
+}
+.icerik{
+  width: 47%;
+  height: auto;
+  margin: 0px 0px 0px 8px;
+  display: inline-block;
+  margin-right: 15px;
+  border-radius:10px;
+  box-shadow: 0px 0px 8px 0px rgba(20, 23, 28, 15);
+  margin-bottom: 15px;
+}
+.img1{
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  border-top-right-radius: 10px;
+  border-top-left-radius:10px;
+  transition: 0.5s;
+  background-color: #667;
+  
+
+}
+.img1:hover {
+  box-shadow: 0 30px 35px rgba(0, 0, 0, 0.7);
+}
+
+h4{
+  margin: 10px;
+}
+.text-about{
+  margin: 10px;
+}
+.dvmbutton:link{
+
+  display: block;
+  width: 130px;
+  height: 40px;
+  padding: 13px 20px;
+  background-color: #0071ce;
+  color: white;
+  text-decoration: none;
+  margin: 15px;
+  border-radius: 10px;
+
+
+}
+.dvmbutton:hover{
+  opacity: 0.8;
+  
+}
+footer{
+  height:75px;
+  width: 100%;
+  background-color: black;
+  color: white;
+  line-height: 75px;
+  text-align: center;
+  box-shadow: 0px 4px 7px 2px rgb(20 23 28);
+
+}
+h3.abauttitle {
+  position: relative;
+  padding: 9px 0px 0px 0px;
+  color: white;
+}
+.hakkımızda {
+  position: relative;
+  background-color: black;
+  height: 39px;
+  width: 411px;
+  text-align: center;
+  margin: auto;
+  border-radius: 14px;
+  bottom: 15px;
+}
+img.aboutimg {
+  position: relative;
+  height: 255px;
+  width: auto;
+  float: left;
+  padding: 11px 18px 0px 9px;
+}
+.contact {
+  POSITION: relative;
+  margin: auto;
+  text-align: center;
+  font-size: 12px;
+}
